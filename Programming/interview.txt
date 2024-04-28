@@ -1,0 +1,44 @@
+sample input=0 1 2 12 9 0 1 0 6
+sample output = 0 0 0 12 9 6 2 1 
+
+int temp;
+      
+for(int i=0;i<arr.length;i++)  1st value=0 2nd value=2 3rd value=1   i=12 
+{    
+for(int k=0;k<arr.length;k++)
+{
+           // First i will sort the array
+if(arr[k]==0)
+{
+arr[k]=0;
+}
+else if(arr[k]<arr[k+1])
+{
+temp=arr[k];
+arr[k]=arr[k+1];
+arr[k+1]=temp;
+
+}
+}
+}
+
+// this loop will print the array
+for(int j=0;j<arr.length;j++)
+{
+if(arr[j]==0)
+{
+System.out.print(arr[j]);
+else if(arr[j]>0)
+{
+System.out.print(arr[j]);
+}
+}
+}
+int max=arr[i];
+for(int i=0;i<arr.length;i++)
+{
+for(int j=0;j<arr.length;j++)
+{
+if(arr[j])
+}
+}
